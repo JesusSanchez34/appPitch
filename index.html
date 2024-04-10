@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domótica360: Tu Hogar Conectado</title>
+  <link rel="stylesheet" href="estiloindex.css">
+</head>
+<body>
+  <header>
+    <h1>Domótica360: Tu Hogar Conectado</h1>
+    <div id="username"></div>
+    <button id="logoutButton">Cerrar Sesión</button>
+  </header>
+  <div class="container">
+    <div id="devices">
+      <h2>Control de Dispositivos</h2>
+      <div id="door">
+        <h3>Puerta Principal</h3>
+        <button id="openDoor" class="door-btn open">Abrir</button>
+        <button id="closeDoor" class="door-btn close">Cerrar</button>
+      </div>
+      <div id="garage">
+        <h3>Garaje</h3>
+        <button id="openGarage" class="garage-btn open">Abrir</button>
+        <button id="closeGarage" class="garage-btn close">Cerrar</button>
+      </div>
+      <div id="lights">
+        <h3>Luces</h3>
+        <div id="interiorLights">
+          <h4>Luces de Interior</h4>
+          <button id="toggleInteriorLights">Encender/Apagar</button>
+        </div>
+        <div id="kitchenLights">
+          <h4>Cocina</h4>
+          <button id="toggleKitchenLights">Encender/Apagar</button>
+        </div>
+        <div id="livingRoomLights">
+          <h4>Sala</h4>
+          <button id="toggleLivingRoomLights">Encender/Apagar</button>
+        </div>
+        <div id="exteriorLights">
+          <h4>Luces de Exterior</h4>
+          <button id="toggleExteriorLights">Encender/Apagar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scriptIndex.js"></script>
+</body>
+</html>

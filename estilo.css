@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("CASA-INTELIGENTE-1-1024x561-1.jpg");
+    background-size: cover; /* La imagen cubrirá todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+  
+.container {
+    width: 350px; /* Aumentar el ancho del contenedor */
+}
+  
+.form {
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+h2 {
+    text-align: center; /* Centrar el título del formulario */
+    margin-top: 0;
+}
+  
+input[type="email"],
+input[type="password"],
+button {
+    display: block;
+    width: calc(100% - 20px); /* Ajustar el ancho de los campos de entrada y botones */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+  
+input[type="email"],
+input[type="password"] {
+    border: 1px solid #ccc; /* Color del borde para los campos de entrada */
+}
+  
+button {
+    background-color: #ff6f61; /* Color de fondo de los botones */
+    color: #fff; /* Color del texto de los botones */
+    cursor: pointer;
+}
+  
+button:hover {
+    opacity: 0.8; /* Cambiar la opacidad al pasar el mouse para indicar interactividad */
+}
